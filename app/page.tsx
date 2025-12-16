@@ -192,52 +192,67 @@ export default function Home() {
         </div>
         <div className="big">
           <img
-            src="/wp-content/uploads/2023/11/buildboat.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/buildboat.jpeg"
             alt="A toy boat"
           />
         </div>
         <div className="tall">
           <img
-            src="/wp-content/uploads/2023/11/young.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/young.jpeg"
             alt="Aaron Heine as a child"
           />
         </div>
         <div>
-          <img src="/wp-content/uploads/2023/11/grac.jpeg" alt="Grace" />
+          <img
+            src="https://aaronheine.com/wp-content/uploads/2023/11/grac.jpeg"
+            alt="Grace"
+          />
+        </div>
+        <div className="big">
+          <img
+            src="https://aaronheine.com/wp-content/uploads/2023/11/kite.mov"
+            alt="Flying a kite"
+          />
         </div>
         <div>
           <img
-            src="/wp-content/uploads/2023/11/cybertruck.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/cybertruck.jpeg"
             alt="Kids drive a remote controlled Cybertruck"
           />
         </div>
         <div>
           <img
-            src="/wp-content/uploads/2023/11/shroom.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/shroom.jpeg"
             alt="Mushroom"
+          />
+        </div>
+        <div className="big">
+          <img
+            src="https://aaronheine.com/wp-content/uploads/2023/11/hike.mov"
+            alt="Hiking"
           />
         </div>
         <div className="tall">
           <img
-            src="/wp-content/uploads/2023/11/turtle.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/turtle.jpeg"
             alt="Kids find a box turtle"
           />
         </div>
         <div>
           <img
-            src="/wp-content/uploads/2023/11/thing.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/thing.jpeg"
             alt="Kids made a strange object"
           />
         </div>
         <div>
           <img
-            src="/wp-content/uploads/2023/11/sunshade.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/sunshade.jpeg"
             alt="Aaron at the beach"
           />
         </div>
         <div className="tall">
           <img
-            src="/wp-content/uploads/2023/11/log.jpeg"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/log.jpeg"
             alt="Walking over a log"
           />
         </div>
