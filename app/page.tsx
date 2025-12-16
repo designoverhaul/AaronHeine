@@ -118,6 +118,19 @@ export default function Home() {
       </section>
 
       <div className="grid-wrapper">
+        <div className="videoContainer">
+          <object
+            className="playButton"
+            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+          ></object>
+          <video id="videoone" loop preload="auto" muted>
+            <source
+              src="https://aaronheine.com/wp-content/uploads/2023/11/demo.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <div>
           <img
             src="https://aaronheine.com/wp-content/uploads/2023/11/beachbike.jpeg"
@@ -153,6 +166,19 @@ export default function Home() {
             src="https://aaronheine.com/wp-content/uploads/2023/11/floor.jpeg"
             alt="Building a new floor for my shop"
           />
+        </div>
+        <div className="wide videoContainer">
+          <object
+            className="playButton"
+            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+          ></object>
+          <video id="videoone" loop preload="auto" muted>
+            <source
+              src="https://aaronheine.com/wp-content/uploads/2023/11/ramp.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div className="big">
           <img
@@ -190,6 +216,32 @@ export default function Home() {
             alt="Terrariums"
           />
         </div>
+        <div className="wide videoContainer">
+          <object
+            className="playButton"
+            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+          ></object>
+          <video id="videoone" loop preload="auto" muted>
+            <source
+              src="https://aaronheine.com/wp-content/uploads/2023/11/crab.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div className="big videoContainer">
+          <object
+            className="playButton"
+            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+          ></object>
+          <video id="videoone" loop preload="auto" muted>
+            <source
+              src="https://aaronheine.com/wp-content/uploads/2023/11/skeleton.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <div className="big">
           <img
             src="https://aaronheine.com/wp-content/uploads/2023/11/buildboat.jpeg"
@@ -208,11 +260,31 @@ export default function Home() {
             alt="Grace"
           />
         </div>
-        <div className="big">
-          <img
-            src="https://aaronheine.com/wp-content/uploads/2023/11/kite.mov"
-            alt="Flying a kite"
-          />
+        <div className="tall videoContainer">
+          <object
+            className="playButton"
+            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+          ></object>
+          <video id="videoone" loop preload="auto" muted>
+            <source
+              src="https://aaronheine.com/wp-content/uploads/2023/11/Megan.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div className="big videoContainer">
+          <object
+            className="playButton"
+            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+          ></object>
+          <video id="videoone" loop preload="auto" muted>
+            <source
+              src="https://aaronheine.com/wp-content/uploads/2023/11/kite.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div>
           <img
@@ -226,11 +298,18 @@ export default function Home() {
             alt="Mushroom"
           />
         </div>
-        <div className="big">
-          <img
-            src="https://aaronheine.com/wp-content/uploads/2023/11/hike.mov"
-            alt="Hiking"
-          />
+        <div className="big videoContainer">
+          <object
+            className="playButton"
+            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+          ></object>
+          <video id="videoone" loop preload="auto" muted>
+            <source
+              src="https://aaronheine.com/wp-content/uploads/2023/11/hike.mov"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div className="tall">
           <img
