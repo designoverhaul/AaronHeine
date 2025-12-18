@@ -9,7 +9,7 @@ export default function Equip() {
       <article>
       <div className="featured-image">
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/goals.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/goals.jpg"
           alt="Equip - Make goals, discover goals, dominate your day"
           width={1900}
           height={715}
@@ -47,7 +47,7 @@ export default function Equip() {
         </p>
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/create-goal.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/create-goal.jpg"
           alt="Create goal interface"
           width={1800}
           height={599}
@@ -62,7 +62,7 @@ export default function Equip() {
         </p>
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/dictionary.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/dictionary.jpg"
           alt="definition of Equip"
           width={442}
           height={300}
@@ -70,7 +70,7 @@ export default function Equip() {
         />
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/logo.jpeg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/logo.jpeg"
           alt="Logo Designs"
           width={370}
           height={300}
@@ -78,7 +78,7 @@ export default function Equip() {
         />
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/illustrations.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/illustrations.jpg"
           alt="early illustrations"
           width={1720}
           height={828}
@@ -87,7 +87,7 @@ export default function Equip() {
         />
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/introduction.png"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/introduction.png"
           alt="introduction screens"
           width={2640}
           height={986}
@@ -101,7 +101,7 @@ export default function Equip() {
         </p>
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/Personas.jpeg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/Personas.jpeg"
           alt="personas"
           width={1722}
           height={1434}
@@ -115,7 +115,7 @@ export default function Equip() {
         </p>
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/registration-flow-scaled.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/registration-flow-scaled.jpg"
           alt="registration flow"
           width={2560}
           height={1337}
@@ -129,7 +129,7 @@ export default function Equip() {
         </p>
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/wireframes.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/wireframes.jpg"
           alt="wireframes"
           width={843}
           height={1024}
@@ -137,7 +137,7 @@ export default function Equip() {
         />
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/multiple-children.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/multiple-children.jpg"
           alt="multiple children"
           width={1024}
           height={533}
@@ -145,7 +145,7 @@ export default function Equip() {
         />
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/marking-complete.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/marking-complete.jpg"
           alt="marking complete"
           width={1024}
           height={534}
@@ -153,7 +153,7 @@ export default function Equip() {
         />
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/signUp.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/signUp.jpg"
           alt="sign up"
           width={1024}
           height={745}
@@ -161,7 +161,7 @@ export default function Equip() {
         />
 
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/settings.jpg"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2021/05/settings.jpg"
           alt="settings"
           width={1024}
           height={857}

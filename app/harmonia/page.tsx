@@ -9,7 +9,7 @@ export default function Harmonia() {
       <article>
         <div className="featured-image">
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Group-165-1.png"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Group-165-1.png"
             alt="Harmonia"
             width={1900}
             height={715}
@@ -46,7 +46,7 @@ export default function Harmonia() {
             </p>
 
             <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Navigation.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Navigation.jpg"
             alt="Navigation Structure"
             width={1900}
             height={1200}
@@ -60,7 +60,7 @@ export default function Harmonia() {
           </p>
 
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Harmonia-logo-design.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Harmonia-logo-design.jpg"
             alt="Harmonia Logo Design"
             width={1900}
             height={1200}
@@ -74,7 +74,7 @@ export default function Harmonia() {
           </p>
 
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/dashboard-wireframes.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/dashboard-wireframes.jpg"
             alt="Dashboard Wireframes"
             width={1900}
             height={1200}
@@ -82,7 +82,7 @@ export default function Harmonia() {
           />
 
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/wireframes.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/wireframes.jpg"
             alt="Annotated Wireframes"
             width={1900}
             height={1200}
@@ -104,7 +104,7 @@ export default function Harmonia() {
 
           <h3>Decorative Styles</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Slice-2.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Slice-2.jpg"
             alt="Decorative Styles"
             width={1900}
             height={1200}
@@ -113,7 +113,7 @@ export default function Harmonia() {
 
           <h3>Typography & Color</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Slice-1.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Slice-1.jpg"
             alt="Typography and Color Palette"
             width={1900}
             height={1200}
@@ -122,7 +122,7 @@ export default function Harmonia() {
 
           <h3>Page Templates</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Slice-3-scaled.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Slice-3-scaled.jpg"
             alt="Page Templates"
             width={2560}
             height={1600}
@@ -136,7 +136,7 @@ export default function Harmonia() {
           </p>
 
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/decorative-Styles-1024x801.png"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/decorative-Styles-1024x801.png"
             alt="Photography Treatment Guide"
             width={1024}
             height={801}
@@ -144,7 +144,7 @@ export default function Harmonia() {
           />
 
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/header-art-1.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/header-art-1.jpg"
             alt="Header Art Example"
             width={1900}
             height={1200}
@@ -158,7 +158,7 @@ export default function Harmonia() {
           </p>
 
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/codePen.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/codePen.jpg"
             alt="CodePen Development"
             width={1900}
             height={1200}
@@ -173,7 +173,7 @@ export default function Harmonia() {
 
           <h3>Home Page</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Home-Page-scaled.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Home-Page-scaled.jpg"
             alt="Home Page"
             width={2560}
             height={1600}
@@ -182,7 +182,7 @@ export default function Harmonia() {
 
           <h3>Sign Up / Sign In</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Sign-Up-In.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Sign-Up-In.jpg"
             alt="Sign Up Sign In"
             width={1900}
             height={1200}
@@ -191,7 +191,7 @@ export default function Harmonia() {
 
           <h3>For Teachers</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/For-Teachers.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/For-Teachers.jpg"
             alt="For Teachers Page"
             width={1900}
             height={1200}
@@ -200,7 +200,7 @@ export default function Harmonia() {
 
           <h3>Mobile Student View</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/iPhone-X-Courses.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/iPhone-X-Courses.jpg"
             alt="Mobile Student Courses"
             width={1125}
             height={2436}
@@ -209,7 +209,7 @@ export default function Harmonia() {
 
           <h3>Mobile Dashboard</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-15-at-2.57.26-PM-scaled.png"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-15-at-2.57.26-PM-scaled.png"
             alt="Mobile Dashboard"
             width={2560}
             height={1600}
@@ -218,7 +218,7 @@ export default function Harmonia() {
 
           <h3>Course Information</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Course-Information.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Course-Information.jpg"
             alt="Course Information"
             width={1900}
             height={1200}
@@ -227,7 +227,7 @@ export default function Harmonia() {
 
           <h3>Documentation</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Documentation.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Documentation.jpg"
             alt="Documentation Page"
             width={1900}
             height={1200}
@@ -236,7 +236,7 @@ export default function Harmonia() {
 
           <h3>Edit Assignment</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Edit-Assignment.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Edit-Assignment.jpg"
             alt="Edit Assignment"
             width={1900}
             height={1200}
@@ -245,7 +245,7 @@ export default function Harmonia() {
 
           <h3>Dashboard Homepage</h3>
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/11/Dashboard-Homepage.jpg"
+            src="https://wp.wp.aaronheine.com/wp-content/uploads/2019/11/Dashboard-Homepage.jpg"
             alt="Dashboard Homepage"
             width={1900}
             height={1200}

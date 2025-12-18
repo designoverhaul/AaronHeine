@@ -8,7 +8,7 @@ export default function BlueBayouBoats() {
       <article>
       <div className="featured-image">
         <Image
-          src="https://wp.aaronheine.com/wp-content/uploads/2023/11/bayou.png"
+          src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/bayou.png"
           alt="Blue Bayou Boats - Three custom boat models"
           width={1900}
           height={715}
