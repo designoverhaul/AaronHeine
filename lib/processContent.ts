@@ -4,12 +4,12 @@
 export function processWordPressContent(content: string, baseUrl: string = 'https://aaronheine.com'): string {
   // Fix video source URLs in existing video tags (WordPress already has proper video tags)
   let processed = content.replace(
-    /<video([^>]*)>(.*?)<\/video>/gis,
+    /<video([^>]*)>([\s\S]*?)<\/video>/gi,
     (match, attributes, innerContent) => {
       // Fix source URLs
       let fixedContent = innerContent.replace(
         /<source\s+([^>]*?)src=["']([^"']+)["']([^>]*?)>/gi,
-        (sourceMatch, beforeSrc, src, afterSrc) => {
+        (_sourceMatch: string, beforeSrc: string, src: string, afterSrc: string) => {
           let videoSrc = src;
           if (src.startsWith('/')) {
             videoSrc = `${baseUrl}${src}`;
