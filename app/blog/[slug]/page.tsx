@@ -1,7 +1,10 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Layout from '@/components/Layout';
+import ImageLightbox from '@/components/ImageLightbox';
 import { getPostBySlug, getPosts } from '@/lib/wordpress';
+import { decodeHtmlEntities } from '@/lib/htmlDecode';
+import { processWordPressContent } from '@/lib/processContent';
 
 export const revalidate = 60;
 
@@ -46,11 +49,17 @@ export default async function BlogPost({
         </header>
 
         <div className="entry-content">
-          <h1 className="page-title">{post.title.rendered}</h1>
+          <h1 className="page-title">
+            <span dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
+          </h1>
 
-          <div
-            dangerouslySetInnerHTML={{ __html: post.content.rendered }}
-          />
+          <ImageLightbox>
+            <div
+              dangerouslySetInnerHTML={{ 
+                __html: processWordPressContent(post.content.rendered) 
+              }}
+            />
+          </ImageLightbox>
         </div>
       </article>
     </Layout>

@@ -58,21 +58,6 @@ export default function RootLayout({
             toggleSwitches.forEach(toggle => {
               toggle.addEventListener('change', switchTheme, false);
             });
-
-            // Video hover play/pause
-            document.addEventListener('DOMContentLoaded', (event) => {
-              const videos = document.querySelectorAll('video');
-
-              videos.forEach(video => {
-                video.addEventListener('mouseover', function() {
-                  video.play();
-                });
-
-                video.addEventListener('mouseout', function() {
-                  video.pause();
-                });
-              });
-            });
           `}
         </Script>
       </body>

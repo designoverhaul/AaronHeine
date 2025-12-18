@@ -41,14 +41,61 @@ export interface WordPressPage {
   };
 }
 
-// Fetch all posts
+// Fetch all posts (handles pagination)
 export async function getPosts(): Promise<WordPressPost[]> {
   try {
-    const response = await axios.get(`${API_URL}/posts?_embed`);
-    return response.data;
+    const allPosts: WordPressPost[] = [];
+    let page = 1;
+    let totalPages = 1;
+    let hasMore = true;
+
+    do {
+      const response = await axios.get(
+        `${API_URL}/posts?_embed&per_page=100&page=${page}&orderby=date&order=desc`
+      );
+      
+      if (response.data.length === 0) {
+        hasMore = false;
+        break;
+      }
+      
+      allPosts.push(...response.data);
+      
+      // Get total pages from response headers
+      const totalPagesHeader = response.headers['x-wp-totalpages'];
+      const totalPostsHeader = response.headers['x-wp-total'];
+      
+      if (totalPagesHeader) {
+        totalPages = parseInt(totalPagesHeader, 10);
+      }
+      
+      // If we got fewer posts than requested, we've reached the end
+      if (response.data.length < 100) {
+        hasMore = false;
+      }
+      
+      page++;
+    } while (hasMore && page <= totalPages);
+
+    // Sort by date descending (newest first) to ensure consistent ordering
+    return allPosts.sort((a, b) => {
+      return new Date(b.date).getTime() - new Date(a.date).getTime();
+    });
   } catch (error) {
     console.error('Error fetching posts:', error);
     return [];
+  }
+}
+
+// Get total count of posts
+export async function getPostsCount(): Promise<number> {
+  try {
+    const response = await axios.get(`${API_URL}/posts?per_page=1`);
+    const totalPostsHeader = response.headers['x-wp-total'];
+    return totalPostsHeader ? parseInt(totalPostsHeader, 10) : 0;
+  } catch (error) {
+    console.error('Error fetching posts count:', error);
+    return 0;
   }
 }
 

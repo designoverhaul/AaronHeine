@@ -1,10 +1,51 @@
+'use client';
+
+import { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import Layout from '@/components/Layout';
 
 export default function Home() {
+  useEffect(() => {
+    const videos = document.querySelectorAll('video');
+
+    videos.forEach(video => {
+      video.addEventListener('mouseover', function() {
+        video.play();
+      });
+
+      video.addEventListener('mouseout', function() {
+        video.pause();
+      });
+    });
+
+    // Cleanup
+    return () => {
+      videos.forEach(video => {
+        video.removeEventListener('mouseover', () => {});
+        video.removeEventListener('mouseout', () => {});
+      });
+    };
+  }, []);
+
   return (
     <Layout>
       <section className="opening">
+        <div style={{ marginBottom: '2rem', display: 'flex', justifyContent: 'flex-start' }}>
+          <Image
+            src="/Aaron-Heine-photo.jpg"
+            alt="Aaron Heine"
+            width={116}
+            height={116}
+            className="profile-photo-blur"
+            style={{
+              width: '116px',
+              height: '116px',
+              borderRadius: '50%',
+              objectFit: 'cover',
+            }}
+          />
+        </div>
         <h1
           style={{
             fontSize: '6rem',
@@ -17,58 +58,167 @@ export default function Home() {
           <span className="spin-emoji">🤪</span>
         </h1>
 
-        <Link href="/portfolio">
-          <button style={{ width: '100%', marginBottom: '8px' }}>
-            Looking for my work?
-          </button>
-        </Link>
-
-        <h3>Currently</h3>
+        <h3 style={{ 
+          color: '#868686', 
+          fontSize: '15px', 
+          fontWeight: 400, 
+          textTransform: 'uppercase',
+          letterSpacing: '0.5px',
+          marginBottom: '1.2rem',
+          marginTop: '2rem'
+        }}>
+          Lately in the community
+        </h3>
         <p>
-          I&apos;m working with Stanley Black & Decker to rebuild{' '}
-          <a target="_blank" href="https://www.cribmaster.com/">
-            Cribmaster
-          </a>{' '}
-          Cloud. We work closely with some of the largest manufacturing
-          companies to make sure 2.0 brings the improvements their users need
-          most.
-        </p>
-
-        <h3>Side Projects</h3>
-        <p>
-          I&apos;ve fixed my kid&apos;s bad YouTube habits by building{' '}
-          <a
-            target="_blank"
-            href="https://apps.apple.com/us/app/channel-lab-youtube-videos/id6448315155"
-          >
-            Channel Lab
+          • I have enjoyed working with{' '}
+          <a target="_blank" href="https://troop18atl.org/">
+            Scout Troop 18
           </a>
-          . It&apos;s an app that features only the best YouTube artist, makers,
-          and educators.
+          . Both my boys are in the troop. Would highly recommend a scouting for any boy or girl.
         </p>
-
         <p>
-          I&apos;m also looking to improve the amount and quality of music played
-          in our house by utilizing the TV.{' '}
-          <a href="https://aaronheine.com/front-row/">Front Row</a> is a curated
-          collection of concerts by your favorite artist. Get it on your Apple
-          TV.
-        </p>
-
-        <p>
-          I build a similar product as Front Row called{' '}
-          <a href="https://aaronheine.com/i-recreated-mtv-hit-rewind/">
-            Hit Rewind
+          • Also working with the{' '}
+          <a target="_blank" href="https://atlantaboychoir.org/">
+            Atlanta Boy Choir
           </a>
-          . It&apos;s the top music videos grouped by year, kinda like MTV used to
-          be! On the Apple TV only. (We like it much better than Front Row)
+          . They are rebuilding the program and really looking to grow the choir this year.
+        </p>
+        <p>
+          • I have been on the board of our community pool for a few years and leading the redesign and remodeling of the clubhouse. Hopefully that happens in the Fall of 2026.
         </p>
 
-        <h3>Online</h3>
+        <h3 style={{ 
+          color: '#868686', 
+          fontSize: '15px', 
+          fontWeight: 400, 
+          textTransform: 'uppercase',
+          letterSpacing: '0.5px',
+          marginBottom: '1.2rem',
+          marginTop: 'calc(2rem + 20px)'
+        }}>
+          Problems I <span style={{ fontStyle: 'italic' }}>had</span>
+        </h3>
+        
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
+          <a href="https://apps.apple.com/eg/app/north-pole-christmas-lists/id6755366177" target="_blank" style={{ textDecoration: 'none' }}>
+            <Image
+              src="/north-pole-icon.jpg"
+              alt="North Pole app icon"
+              width={60}
+              height={60}
+              style={{ 
+                borderRadius: '18px',
+                flexShrink: 0
+              }}
+            />
+          </a>
+          <div style={{ flex: 1 }}>
+            <a href="https://apps.apple.com/eg/app/north-pole-christmas-lists/id6755366177" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <strong style={{ fontSize: '1.8rem', fontWeight: 700 }}>North Pole</strong>
+            </a>
+            <p style={{ fontSize: '1.6rem', lineHeight: '2.7rem', marginTop: '0.5rem', marginBottom: 0 }}>
+              Christmas is kind of a mess with everyone trying to figure out what each other want. I just need a shared lists where we can mark items off so that others won&apos;t buy it(while keeping secrets for the list owner). Unexpected result… my kids made huge lists and now they&apos;re getting more gifts because sharing lists with links to specific items makes it so easy to buy.
+            </p>
+          </div>
+        </div>
 
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
+          <a href="https://eventsnearme.me/" target="_blank" style={{ textDecoration: 'none' }}>
+            <Image
+              src="/events-near-me-icon.png"
+              alt="Events Near Me app icon"
+              width={60}
+              height={60}
+              style={{ 
+                borderRadius: '18px',
+                flexShrink: 0
+              }}
+            />
+          </a>
+          <div style={{ flex: 1 }}>
+            <a href="https://eventsnearme.me/" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <strong style={{ fontSize: '1.8rem', fontWeight: 700 }}>www.EventsNearMe.me</strong>
+            </a>
+            <p style={{ fontSize: '1.6rem', lineHeight: '2.7rem', marginTop: '0.5rem', marginBottom: 0 }}>
+              I often do a Google search for weekend events here in Atlanta. My goal it to produce better search results than Google. It uses AI and a multi stage search process. Just in Atlanta for now.
+            </p>
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
+          <a href="https://apps.apple.com/us/app/channel-lab-a-yt-kids-only/id6448315155" target="_blank" style={{ textDecoration: 'none' }}>
+            <Image
+              src="/channel-lab-icon.jpg"
+              alt="Channel Lab app icon"
+              width={60}
+              height={60}
+              style={{ 
+                borderRadius: '18px',
+                flexShrink: 0
+              }}
+            />
+          </a>
+          <div style={{ flex: 1 }}>
+            <a href="https://apps.apple.com/us/app/channel-lab-a-yt-kids-only/id6448315155" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <strong style={{ fontSize: '1.8rem', fontWeight: 700 }}>Channel Lab</strong>
+            </a>
+            <p style={{ fontSize: '1.6rem', lineHeight: '2.7rem', marginTop: '0.5rem', marginBottom: 0 }}>
+              It frustrates me that there is so much good content on YouTube that my kids like, but that is not what they watch! I blame YouTube for simply giving users more of what they click on. I fixed this for my kids and many more!
+            </p>
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
+          <a href="https://apps.apple.com/us/app/hobby-hunt-video-courses/id6755356738" target="_blank" style={{ textDecoration: 'none' }}>
+            <Image
+              src="/hobby-hunt-icon.jpg"
+              alt="Hobby Hunt app icon"
+              width={60}
+              height={60}
+              style={{ 
+                borderRadius: '18px',
+                flexShrink: 0
+              }}
+            />
+          </a>
+          <div style={{ flex: 1 }}>
+            <a href="https://apps.apple.com/us/app/hobby-hunt-video-courses/id6755356738" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <strong style={{ fontSize: '1.8rem', fontWeight: 700 }}>Hobby Hunt</strong>
+            </a>
+            <p style={{ fontSize: '1.6rem', lineHeight: '2.7rem', marginTop: '0.5rem', marginBottom: 0 }}>
+              Channel Lab improves what my kids watch, but I want to make YouTube more ACTIONABLE. Hobby Hunt is a collection of courses adults and kids can earn badges for completing. They are based on videos carefully curated by professionals.
+            </p>
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
+          <a href="https://apps.apple.com/us/app/itinerary-maker-by-get-gone/id6747410879" target="_blank" style={{ textDecoration: 'none' }}>
+            <Image
+              src="/get-gone-icon.jpg"
+              alt="Get Gone app icon"
+              width={60}
+              height={60}
+              style={{ 
+                borderRadius: '18px',
+                flexShrink: 0
+              }}
+            />
+          </a>
+          <div style={{ flex: 1 }}>
+            <a href="https://apps.apple.com/us/app/itinerary-maker-by-get-gone/id6747410879" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <strong style={{ fontSize: '1.8rem', fontWeight: 700 }}>Get Gone</strong>
+            </a>
+            <p style={{ fontSize: '1.6rem', lineHeight: '2.7rem', marginTop: '0.5rem', marginBottom: 0 }}>
+              I wanted a vacation planner that plans destinations and events around those destinations. Don&apos;t need flights or hotels. If I want to explore Puerto Rico for 10 days(I do) show me where to go and what to do. No app does this. Until now!
+            </p>
+          </div>
+        </div>
+
+        <div style={{ marginTop: '47px', marginBottom: '3rem' }}>
         <a
           target="_blank"
           className="tableRow"
+          data-social="linkedin"
           href="https://www.linkedin.com/in/aaronheine/"
         >
           <strong className="socialNames">LinkedIn&nbsp;&nbsp;</strong>
@@ -79,6 +229,7 @@ export default function Home() {
         <a
           target="_blank"
           className="tableRow"
+          data-social="x"
           href="https://twitter.com/aaronheine"
         >
           <strong className="socialNames">X&nbsp;&nbsp;</strong>
@@ -89,6 +240,7 @@ export default function Home() {
         <a
           target="_blank"
           className="tableRow"
+          data-social="youtube"
           href="https://www.youtube.com/@aaronheine"
         >
           <strong className="socialNames">YouTube&nbsp;&nbsp;</strong>
@@ -99,29 +251,38 @@ export default function Home() {
         <a
           target="_blank"
           className="tableRow"
+          data-social="facebook"
           href="https://www.facebook.com/AaronMaxHeine"
         >
           <strong className="socialNames">Facebook&nbsp;&nbsp;</strong>
           <hr className="myLine" />
           <span>&nbsp;&nbsp;Add&nbsp;Friend</span>
         </a>
+        </div>
 
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <h3>Home</h3>
-          <h3>Atlanta Georgia</h3>
+          <h3 style={{ fontWeight: 300 }}>Atlanta Georgia</h3>
         </div>
-        <img
-          style={{ borderRadius: '4px' }}
-          alt="Atlanta Georgia Map"
-          src="https://aaronheine.com/wp-content/uploads/2023/11/where.jpg"
-        />
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=Decatur,Georgia"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: 'block', cursor: 'pointer' }}
+        >
+          <img
+            style={{ borderRadius: '4px' }}
+            alt="Atlanta Georgia Map"
+            src="https://aaronheine.com/wp-content/uploads/2023/11/where.jpg"
+          />
+        </a>
       </section>
 
       <div className="grid-wrapper">
         <div className="videoContainer">
           <object
             className="playButton"
-            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+            data="/tryangle.svg"
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
@@ -170,7 +331,7 @@ export default function Home() {
         <div className="wide videoContainer">
           <object
             className="playButton"
-            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+            data="/tryangle.svg"
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
@@ -219,7 +380,7 @@ export default function Home() {
         <div className="wide videoContainer">
           <object
             className="playButton"
-            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+            data="/tryangle.svg"
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
@@ -232,7 +393,7 @@ export default function Home() {
         <div className="big videoContainer">
           <object
             className="playButton"
-            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+            data="/tryangle.svg"
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
@@ -263,7 +424,7 @@ export default function Home() {
         <div className="tall videoContainer">
           <object
             className="playButton"
-            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+            data="/tryangle.svg"
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
@@ -276,7 +437,7 @@ export default function Home() {
         <div className="big videoContainer">
           <object
             className="playButton"
-            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+            data="/tryangle.svg"
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
@@ -301,7 +462,7 @@ export default function Home() {
         <div className="big videoContainer">
           <object
             className="playButton"
-            data="https://aaronheine.com/wp-content/uploads/2023/11/tryangle.svg"
+            data="/tryangle.svg"
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
