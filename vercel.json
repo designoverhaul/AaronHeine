@@ -3,35 +3,5 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "regions": ["iad1"],
-  "rewrites": [
-    {
-      "source": "/wp-content/:path*",
-      "destination": "https://35.215.119.21/wp-content/:path*"
-    },
-    {
-      "source": "/wp-json/:path*",
-      "destination": "https://35.215.119.21/wp-json/:path*"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/wp-content/:path*",
-      "headers": [
-        {
-          "key": "Host",
-          "value": "aaronheine.com"
-        }
-      ]
-    },
-    {
-      "source": "/wp-json/:path*",
-      "headers": [
-        {
-          "key": "Host",
-          "value": "aaronheine.com"
-        }
-      ]
-    }
-  ]
+  "regions": ["iad1"]
 }
