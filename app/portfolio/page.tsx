@@ -24,7 +24,7 @@ export default function Portfolio() {
         </p>
         <Link href="/hcm-401k-optimizer">
           <Image
-            src="https://aaronheine.com/wp-content/uploads/2023/11/UI-UX.jpg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/UI-UX.jpg"
             alt="Logo for 401k Optimizer"
             width={1200}
             height={800}
@@ -43,7 +43,7 @@ export default function Portfolio() {
         </p>
         <Link href="/equip">
           <Image
-            src="https://aaronheine.com/wp-content/uploads/2021/05/goals.jpg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2021/05/goals.jpg"
             alt="Equip graphic. Make goals, discover goals, dominate your day."
             width={1200}
             height={800}
@@ -62,7 +62,7 @@ export default function Portfolio() {
         </p>
         <Link href="/harmonia">
           <Image
-            src="https://aaronheine.com/wp-content/uploads/2024/01/violin.png"
+            src="https://wp.aaronheine.com/wp-content/uploads/2024/01/violin.png"
             alt="Photo of teacher"
             width={1200}
             height={800}
@@ -81,7 +81,7 @@ export default function Portfolio() {
         </p>
         <Link href="/blue-bayou-boats">
           <Image
-            src="https://aaronheine.com/wp-content/uploads/2023/11/bayou.png"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/bayou.png"
             alt="Three custom boat models"
             width={1200}
             height={800}
@@ -101,49 +101,49 @@ export default function Portfolio() {
           <div className="grid-work">
           <div className="wide">
             <img
-              src="https://aaronheine.com/wp-content/uploads/2024/08/stan2.jpg"
+              src="https://wp.aaronheine.com/wp-content/uploads/2024/08/stan2.jpg"
               className="image"
               alt="Portfolio work"
             />
           </div>
           <div className="wide">
             <img
-              src="https://aaronheine.com/wp-content/uploads/2024/01/Twist-Locs-Coils.jpg"
+              src="https://wp.aaronheine.com/wp-content/uploads/2024/01/Twist-Locs-Coils.jpg"
               className="image"
               alt="Portfolio work"
             />
           </div>
           <div className="tall">
             <img
-              src="https://aaronheine.com/wp-content/uploads/2023/11/Supershot-e1701442706221.jpg"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/Supershot-e1701442706221.jpg"
               className="image"
               alt="Portfolio work"
             />
           </div>
           <div className="wide">
             <img
-              src="https://aaronheine.com/wp-content/uploads/2024/01/HoganTaylor-UI-1280x960-1.jpg"
+              src="https://wp.aaronheine.com/wp-content/uploads/2024/01/HoganTaylor-UI-1280x960-1.jpg"
               className="image"
               alt="Portfolio work"
             />
           </div>
           <div className="big">
             <img
-              src="https://aaronheine.com/wp-content/uploads/2023/11/walden-scaled-e1701442551670.jpg"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/walden-scaled-e1701442551670.jpg"
               className="image"
               alt="Portfolio work"
             />
           </div>
           <div className="wide">
             <img
-              src="https://aaronheine.com/wp-content/uploads/2024/08/Emory-e1701442914953.jpg"
+              src="https://wp.aaronheine.com/wp-content/uploads/2024/08/Emory-e1701442914953.jpg"
               className="image"
               alt="Portfolio work"
             />
           </div>
           <div className="wide">
             <img
-              src="https://aaronheine.com/wp-content/uploads/2023/11/ActionMoves-e1701442942712.jpg"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/ActionMoves-e1701442942712.jpg"
               className="image"
               alt="Portfolio work"
             />

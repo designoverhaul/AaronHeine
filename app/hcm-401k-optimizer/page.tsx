@@ -9,7 +9,7 @@ export default function The401kOptimizer() {
       <article>
       <div className="featured-image">
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2023/11/UI-UX.jpg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2023/11/UI-UX.jpg"
           alt="The 401k Optimizer - UI/UX Design"
           width={1107}
           height={370}
@@ -59,7 +59,7 @@ export default function The401kOptimizer() {
         </p>
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/04/Journey-map-scaled.jpg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/04/Journey-map-scaled.jpg"
           alt="Journey map"
           width={2560}
           height={1411}
@@ -79,7 +79,7 @@ export default function The401kOptimizer() {
         </ul>
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/04/login-1.jpeg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/04/login-1.jpeg"
           alt="Login screen"
           width={920}
           height={430}
@@ -87,7 +87,7 @@ export default function The401kOptimizer() {
         />
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/04/Screen-One.jpeg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/04/Screen-One.jpeg"
           alt="Screen one"
           width={1161}
           height={1621}
@@ -95,7 +95,7 @@ export default function The401kOptimizer() {
         />
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/05/Recomendations.jpeg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/Recomendations.jpeg"
           alt="Recommendations"
           width={2236}
           height={1615}
@@ -103,7 +103,7 @@ export default function The401kOptimizer() {
         />
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/04/SDBA.jpeg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/04/SDBA.jpeg"
           alt="SDBA banner"
           width={527}
           height={351}
@@ -111,7 +111,7 @@ export default function The401kOptimizer() {
         />
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/04/Dashboard2.jpeg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/04/Dashboard2.jpeg"
           alt="Dashboard version 2"
           width={1200}
           height={1968}
@@ -120,7 +120,7 @@ export default function The401kOptimizer() {
         />
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/04/iFrame.jpeg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/04/iFrame.jpeg"
           alt="iFrame"
           width={1134}
           height={824}
@@ -134,7 +134,7 @@ export default function The401kOptimizer() {
         </p>
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/05/Participants-1024x498.jpg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/Participants-1024x498.jpg"
           alt="Participants"
           width={1378}
           height={670}
@@ -142,7 +142,7 @@ export default function The401kOptimizer() {
         />
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/05/Record-Keepers-1024x498.jpg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/Record-Keepers-1024x498.jpg"
           alt="Record Keepers"
           width={1378}
           height={670}
@@ -150,7 +150,7 @@ export default function The401kOptimizer() {
         />
 
         <Image
-          src="https://aaronheine.com/wp-content/uploads/2021/05/Single-Participant.jpg"
+          src="https://wp.aaronheine.com/wp-content/uploads/2021/05/Single-Participant.jpg"
           alt="Single Participant"
           width={1378}
           height={670}

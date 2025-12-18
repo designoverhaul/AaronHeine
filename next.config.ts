@@ -5,11 +5,17 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'aaronheine.com',
+        hostname: 'wp.aaronheine.com',
         pathname: '/wp-content/uploads/**',
       },
       {
         protocol: 'http',
+        hostname: 'wp.aaronheine.com',
+        pathname: '/wp-content/uploads/**',
+      },
+      // Keep old domain for backwards compatibility during transition
+      {
+        protocol: 'https',
         hostname: 'aaronheine.com',
         pathname: '/wp-content/uploads/**',
       },

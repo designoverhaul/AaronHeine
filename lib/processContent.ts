@@ -1,7 +1,7 @@
 /**
  * Process WordPress content to fix image URLs and ensure proper rendering
  */
-export function processWordPressContent(content: string, baseUrl: string = 'https://aaronheine.com'): string {
+export function processWordPressContent(content: string, baseUrl: string = 'https://wp.aaronheine.com'): string {
   // Fix video source URLs in existing video tags (WordPress already has proper video tags)
   let processed = content.replace(
     /<video([^>]*)>([\s\S]*?)<\/video>/gi,
