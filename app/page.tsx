@@ -273,7 +273,7 @@ export default function Home() {
           <img
             style={{ borderRadius: '4px' }}
             alt="Atlanta Georgia Map"
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/where.jpg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/where.jpg"
           />
         </a>
       </section>
@@ -286,7 +286,7 @@ export default function Home() {
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
-              src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/demo.mov"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/demo.mov"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -294,37 +294,37 @@ export default function Home() {
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/beachbike.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/beachbike.jpeg"
             alt="Electric bike on the beach"
           />
         </div>
         <div className="tall">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/brock.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/brock.jpeg"
             alt="My dog"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/fish.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/fish.jpeg"
             alt="My fish tank"
           />
         </div>
         <div className="tall">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/coco.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/coco.jpeg"
             alt="My son Collin in Miami"
           />
         </div>
         <div className="big">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/bike.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/bike.jpeg"
             alt="My Mountain Bike"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/floor.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/floor.jpeg"
             alt="Building a new floor for my shop"
           />
         </div>
@@ -335,7 +335,7 @@ export default function Home() {
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
-              src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/ramp.mov"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/ramp.mov"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -343,37 +343,37 @@ export default function Home() {
         </div>
         <div className="big">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/swim.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/swim.jpeg"
             alt="My son Evan swimming under water"
           />
         </div>
         <div className="tall">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/flowers.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/flowers.jpeg"
             alt="Flowers we collected"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/rainbow.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/rainbow.jpeg"
             alt="Kids and colorful lighting in the kitchen"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/mepoint.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/mepoint.jpeg"
             alt="Photo of Aaron Heine"
           />
         </div>
         <div className="tall">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/irt.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/irt.jpeg"
             alt="Dirty Aaron"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/terrarium.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/terrarium.jpeg"
             alt="Terrariums"
           />
         </div>
@@ -384,7 +384,7 @@ export default function Home() {
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
-              src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/crab.mov"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/crab.mov"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -397,7 +397,7 @@ export default function Home() {
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
-              src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/skeleton.mov"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/skeleton.mov"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -405,19 +405,19 @@ export default function Home() {
         </div>
         <div className="big">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/buildboat.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/buildboat.jpeg"
             alt="A toy boat"
           />
         </div>
         <div className="tall">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/young.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/young.jpeg"
             alt="Aaron Heine as a child"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/grac.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/grac.jpeg"
             alt="Grace"
           />
         </div>
@@ -428,7 +428,7 @@ export default function Home() {
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
-              src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/Megan.mov"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/Megan.mov"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -441,7 +441,7 @@ export default function Home() {
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
-              src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/kite.mov"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/kite.mov"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -449,13 +449,13 @@ export default function Home() {
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/cybertruck.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/cybertruck.jpeg"
             alt="Kids drive a remote controlled Cybertruck"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/shroom.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/shroom.jpeg"
             alt="Mushroom"
           />
         </div>
@@ -466,7 +466,7 @@ export default function Home() {
           ></object>
           <video id="videoone" loop preload="auto" muted>
             <source
-              src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/hike.mov"
+              src="https://wp.aaronheine.com/wp-content/uploads/2023/11/hike.mov"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -474,25 +474,25 @@ export default function Home() {
         </div>
         <div className="tall">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/turtle.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/turtle.jpeg"
             alt="Kids find a box turtle"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/thing.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/thing.jpeg"
             alt="Kids made a strange object"
           />
         </div>
         <div>
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/sunshade.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/sunshade.jpeg"
             alt="Aaron at the beach"
           />
         </div>
         <div className="tall">
           <img
-            src="https://wp.wp.aaronheine.com/wp-content/uploads/2023/11/log.jpeg"
+            src="https://wp.aaronheine.com/wp-content/uploads/2023/11/log.jpeg"
             alt="Walking over a log"
           />
         </div>
