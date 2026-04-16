@@ -1165,3 +1165,82 @@ input:checked+.slider:before {
   letter-spacing: 0.1em;
   font-variant-numeric: tabular-nums;
 }
+
+/*  Resume  --------------------------------------------------------*/
+.resume {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 83px auto;
+}
+.resume .jobs {
+  flex-grow: 1;
+  padding-right: 67px;
+}
+.resume .singleJob { margin-bottom: 60px; }
+.resume .resumeSidebar { flex: 0 0 250px; }
+.resume .resumeSidebar h3 {
+  color: var(--text-color);
+  display: block;
+  border-bottom: 1px solid var(--my-secondary);
+  font-size: 1.5rem;
+  margin-bottom: 22px;
+}
+.resume .rezTitle {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: -0.8rem;
+  display: block;
+}
+.resume .rezDateLocation { color: var(--medium); font-size: 14px; }
+.resume .resumeSidebar ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: var(--text-color);
+}
+.resume .resumeSidebar ul li { margin-bottom: 11px; line-height: 2.1rem; }
+.resume .contactLinks li { margin-bottom: 0; line-height: 1.2rem; }
+
+.resume .singleJob .fas::before {
+  font-size: 14px;
+  margin-right: 6px;
+  color: #8f8f8f;
+}
+.resume .singleJob .fa-map-pin::before {
+  content: "\f276";
+  margin-right: 8px;
+}
+
+button.rainbow {
+  color: var(--text-color);
+  border-radius: 0.38rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  transition: background 0.5s ease, box-shadow 0.5s ease, color 0.5s ease;
+  margin-bottom: 1.2rem;
+  background-color: var(--bg-color);
+  padding: 6px 16px;
+  font-weight: 600;
+  border: solid var(--text-color) 1px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+button.rainbow:hover {
+  background: linear-gradient(90deg, #6a0dad, #1e90ff, #8a2be2, #483d8b);
+  background-size: 300% 300%;
+  animation: rainbowScroll 4s linear infinite;
+  color: rgb(203, 183, 231);
+  border-color: transparent;
+  box-shadow: 0 0 10px rgba(106, 13, 173, 0.7), 0 0 20px rgba(30, 144, 255, 0.6), 0 0 30px rgba(138, 43, 226, 0.5);
+}
+@keyframes rainbowScroll {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+@media only screen and (max-width: 768px) {
+  .resume { flex-direction: column !important; max-width: 90%; }
+  .resume .jobs { padding-right: 0; }
+}
