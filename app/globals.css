@@ -71,7 +71,7 @@ h3{font-size: 1.6rem; line-height: 42px; margin: 8px 0 0px;;}
 
 a {
   color: #3593cb;
-  font-size: 1.8rem;
+  font-size: inherit;
   text-decoration: none;
 }
 

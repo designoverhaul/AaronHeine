@@ -168,13 +168,13 @@ export default function Resume() {
               </a>
             </li>
             <li>
-              <i className="fa-brands fa-twitter"></i>{' '}
+              <i className="fa-brands fa-x-twitter"></i>{' '}
               <a
-                href="https://twitter.com/aaronheine"
+                href="https://x.com/aaronheine"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                X
               </a>
             </li>
             <li>
@@ -221,17 +221,17 @@ export default function Resume() {
 
           <h3>Education</h3>
           <p>
-            <strong>Shelton State Community College</strong>
+            <strong>University of Montevallo</strong>
             <br />
-            AAS Commercial Art, 2004
+            BFA Graphic Design, 2007
             <br />
             Montevallo, AL
           </p>
 
           <p>
-            <strong>University of Montevallo</strong>
+            <strong>Shelton State College</strong>
             <br />
-            BFA Graphic Design, 2007
+            AAS Commercial Art, 2004
             <br />
             Tuscaloosa, AL
           </p>
