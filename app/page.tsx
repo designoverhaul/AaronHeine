@@ -100,6 +100,29 @@ export default function Home() {
         </h3>
         
         <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
+          <a href="https://headcount-five-chi.vercel.app" target="_blank" style={{ textDecoration: 'none' }}>
+            <Image
+              src="/headcount-icon.png"
+              alt="HeadCount app icon"
+              width={60}
+              height={60}
+              style={{
+                borderRadius: '18px',
+                flexShrink: 0
+              }}
+            />
+          </a>
+          <div style={{ flex: 1 }}>
+            <a href="https://headcount-five-chi.vercel.app" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <strong style={{ fontSize: '1.8rem', fontWeight: 700 }}>HeadCount</strong>
+            </a>
+            <p style={{ fontSize: '1.6rem', lineHeight: '2.7rem', marginTop: '0.5rem', marginBottom: 0 }}>
+              Renting a beach house with several families is great until it&apos;s time to split the bill — different size families staying different numbers of nights. HeadCount does the math by person-nights, and everyone with the link can edit the same numbers together. No accounts, no sign-in.
+            </p>
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
           <a href="https://apps.apple.com/eg/app/north-pole-christmas-lists/id6755366177" target="_blank" style={{ textDecoration: 'none' }}>
             <Image
               src="/north-pole-icon.jpg"
