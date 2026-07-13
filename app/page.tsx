@@ -123,6 +123,29 @@ export default function Home() {
         </div>
 
         <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
+          <a href="https://thevinylsolutions.com/" target="_blank" style={{ textDecoration: 'none' }}>
+            <Image
+              src="/vinyl-solutions-icon.jpg"
+              alt="Vinyl Solutions app icon"
+              width={60}
+              height={60}
+              style={{
+                borderRadius: '18px',
+                flexShrink: 0
+              }}
+            />
+          </a>
+          <div style={{ flex: 1 }}>
+            <a href="https://thevinylsolutions.com/" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <strong style={{ fontSize: '1.8rem', fontWeight: 700 }}>Vinyl Solutions</strong>
+            </a>
+            <p style={{ fontSize: '1.6rem', lineHeight: '2.7rem', marginTop: '0.5rem', marginBottom: 0 }}>
+              I catalog my records on Discogs, but I wanted to actually play them on my phone — with the real jacket art, the exact pressing, and a turntable that feels real. Nothing did that. So I built it. Photograph your records, import your Discogs collection, drop the needle, and stream full albums with Apple Music.
+            </p>
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', alignItems: 'flex-start' }}>
           <a href="https://apps.apple.com/eg/app/north-pole-christmas-lists/id6755366177" target="_blank" style={{ textDecoration: 'none' }}>
             <Image
               src="/north-pole-icon.jpg"
