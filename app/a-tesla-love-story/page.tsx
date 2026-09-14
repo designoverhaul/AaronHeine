@@ -39,8 +39,8 @@ export default function TeslaLoveStory() {
           <Image
             src="/tesla-love-story/tesla-caraoke-comic.jpg"
             alt="Tesla Caraoke Comic"
-            width={1000}
-            height={1263}
+            width={903}
+            height={9876}
             className="aligncenter size-full"
           />
 
