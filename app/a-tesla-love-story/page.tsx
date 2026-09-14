@@ -14,10 +14,10 @@ export default function TeslaLoveStory() {
       <article>
         <div className="featured-image">
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2019/10/tesla.jpg"
+            src="/tesla-love-story/tesla.jpg"
             alt="Tesla Love Story"
-            width={1900}
-            height={970}
+            width={1000}
+            height={511}
             className="featured-thumb"
           />
         </div>
@@ -33,26 +33,20 @@ export default function TeslaLoveStory() {
           <p>
             Inspired by true events. Elaborated on through a collection of stock photography.
           </p>
-          
-          <p>
-            What is{' '}
-            <a
-              href="https://www.notateslaapp.com/tesla-reference/587/everything-about-tesla-caraoke-karaoke"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Caraoke
-            </a>
-            ?
-          </p>
+
+          <h2>What is Caraoke?</h2>
 
           <Image
-            src="https://wp.aaronheine.com/wp-content/uploads/2023/12/tesla-caraoke-comic.jpg"
+            src="/tesla-love-story/tesla-caraoke-comic.jpg"
             alt="Tesla Caraoke Comic"
-            width={1900}
-            height={2400}
+            width={1000}
+            height={1263}
             className="aligncenter size-full"
           />
+
+          <p style={{ color: '#b8b8b8', marginTop: '40px', fontSize: '13px' }}>
+            Aaron Heine - 2024
+          </p>
 
           <Link href="/life">
             <button>Back to Writing</button>
